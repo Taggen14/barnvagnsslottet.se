@@ -1,0 +1,93 @@
+{
+  "layout": {
+    "logo": {
+      "url": "https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg",
+      "alt": "Barnvagnsslottets logo"
+    },
+    "header": {
+      "links": [
+        {
+          "title": "Hem",
+          "route": "/",
+          "slug": "/"
+        },
+        {
+          "title": "Shop",
+          "route": "/shop",
+          "slug": "shop"
+        },
+        {
+          "title": "Kontakt",
+          "route": "/contact",
+          "slug": "contact"
+        }
+      ]
+    },
+    "footer": {
+      "contact": {
+        "tele": {
+          "text": "Telefon: ",
+          "nr": "073 512 88 95",
+          "href": "tel:+46735128895"
+        },
+        "mail": {
+          "text": "E-post: ",
+          "address": "barnvagnsslottet@gmail.com",
+          "href": "mailto:barnvagnsslottet@gmail.com"
+        },
+        "address": {
+          "text": "Adress: ",
+          "street": "Vårdkasevägen 35",
+          "postal_code": "175 68",
+          "postal_city": "Järfälla",
+          "href": "https://maps.google.com/?q=Vårdkasevägen+35,+Järfälla"
+        }
+      },
+      "copyright": "© 2025 Barnvagnsslottets"
+    }
+  },
+  "landingPage": {
+    "h1": "Välkommen till oss på Barnvagnsslottet",
+    "description": "På Barnvagnsslottet ger vi högkvalitativa barnvagnar ett nytt liv genom grundlig renovering. Vi handplockar premiumvagnar, återställer dem till toppskick och erbjuder dem till ett väsentligt lägre pris än nya modeller. Genom vårt arbete gör vi kvalitetsvagnar tillgängliga för fler familjer samtidigt som vi bidrar till en mer hållbar värld där färre produkter hamnar på soptippen."
+  },
+  "shop": {},
+  "about": {},
+  "contact": {
+    "title": "Kontakt oss",
+    "description": "Har du frågor om våra vagnar eller vill boka en visning? Vi finns här för dig! Kontakta oss gärna via formuläret nedan eller använd våra direkta kontaktuppgifter. Vårt team svarar vanligtvis inom 24 timmar på vardagar. Vi ser fram emot att hjälpa dig hitta den perfekta vagnen för din familj."
+  },
+  "components": {
+    "form": {
+      "fields": [
+        {
+          "name": "name",
+          "label": "Namn",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "E-post",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "phone",
+          "label": "Telefon",
+          "type": "tel",
+          "required": false
+        },
+        {
+          "name": "message",
+          "label": "Meddelande",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "submitButton": {
+        "send": "Skicka",
+        "sent": "Skickat"
+      }
+    }
+  }
+}
