@@ -2,12 +2,10 @@
 
 import React, { useEffect } from "react";
 import content from "@/app/sv.json";
-import { ShoppingCart, User } from "lucide-react";
 import { CldImage } from "next-cloudinary";
 import Navbar from "./navbar";
 import NavbarMobile from "./navbar-mobile";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 
 const Header = () => {
