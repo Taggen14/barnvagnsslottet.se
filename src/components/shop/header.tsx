@@ -96,10 +96,10 @@ export function ShopHeader() {
       <header
         className={cn(
           "sticky top-0 z-50 w-full",
-          "transition-all duration-300 ease-in-out",
+          "transition-all duration-300 ease-in-out bg-secondary text-secondary-foreground",
           isScrolled
-            ? "bg-background shadow-xl"
-            : "bg-gradient-to-r from-primary/5 via-background to-primary/5",
+            ? "shadow-xl"
+            : ""/*  "bg-gradient-to-r from-primary/5 via-background to-primary/5", */
         )}
       >
         {/* Premium accent line at top */}
@@ -114,7 +114,7 @@ export function ShopHeader() {
                 <div className="relative overflow-hidden group">
                   <div className="absolute inset-0 rounded-md opacity-0 group-hover:opacity-100 bg-primary/10 blur transition-all duration-300"></div>
                   <CldImage
-                    src="https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743062927/coffee4partners_logotyp_x36_2x_m2lkv8.png"
+                    src="https://res.cloudinary.com/CLOUD_NAME/image/upload/v1744111414/barnvagnsslottet-logo-200x800px-removebg_yz8hwp.png"
                     width={180}
                     height={180}
                     alt="Coffee4partners Logo"
@@ -164,7 +164,7 @@ export function ShopHeader() {
                           className={cn(
                             "text-base py-2.5",
                             selectedCategory === category.id &&
-                              "text-primary font-medium",
+                            "text-primary font-medium",
                           )}
                           onClick={() => handleCategorySelect(category.id)}
                         >

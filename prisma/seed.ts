@@ -9,25 +9,13 @@ const prisma = new PrismaClient();
 
 const categories = [
   {
-    name: "Varumärken",
+    name: "Barnvagnar",
     description: "Någon beskrivning för dem.",
   },
   {
-    name: "Varm dryck",
+    name: "Tillbehör",
     description: "Någon beskrivning för dem.",
-  },
-  {
-    name: "Övrigt",
-    description: "Någon beskrivning för dem.",
-  },
-  {
-    name: "Kafferosterier",
-    description: "Någon beskrivning för dem.",
-  },
-  {
-    name: "Fikalösningar",
-    description: "Någon beskrivning för dem.",
-  },
+  }
 ] as const;
 
 const products = [
@@ -70,7 +58,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Varumärken",
+    category: "Barnvagnar",
   },
   {
     name: "Esprecious 221L",
@@ -111,7 +99,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Varumärken",
+    category: "Barnvagnar",
   },
   {
     name: "Esprecious 33L",
@@ -152,7 +140,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Varumärken",
+    category: "Tillbehör",
   },
   {
     name: "Esprecious 44L",
@@ -193,7 +181,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Varumärken",
+    category: "Tillbehör",
   },
   {
     name: "Esprecious 33L",
@@ -234,7 +222,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Kafferosterier",
+    category: "Tillbehör",
   },
   {
     name: "Esprecious 44L",
@@ -275,7 +263,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Kafferosterier",
+    category: "Tillbehör",
   },
   {
     name: "Esprecious 55L",
@@ -316,7 +304,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Varm dryck",
+    category: "Barnvagnar",
   },
   {
     name: "Esprecious 66L",
@@ -357,7 +345,7 @@ const products = [
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
       "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
     ],
-    category: "Varm dryck",
+    category: "Barnvagnar",
   },
 ];
 

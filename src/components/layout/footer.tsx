@@ -21,7 +21,7 @@ const Footer = () => {
             preserveTransformations
           />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col py-2">
           <a
             className="hover:text-secondary-foreground/80 transition-colors duration-300"
             href={contact.tele.href}
@@ -36,7 +36,7 @@ const Footer = () => {
             {contact.mail.text}
             {contact.mail.address}
           </a>
-          <div className="flex gap-5 justify-center">
+          <div className="flex gap-5">
             <a
               className="hover:text-secondary-foreground/80 transition-colors duration-300 mt-2"
               href="https://www.instagram.com/barnvagnsslottet/"

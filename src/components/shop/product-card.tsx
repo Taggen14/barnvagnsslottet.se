@@ -2,7 +2,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Eye } from "lucide-react";
@@ -19,6 +18,7 @@ import { AddToCartButton } from "@/components/shop/add-to-cart-button";
 import { QuickView } from "@/components/shop/quick-view";
 import { formatPrice } from "@/lib/utils";
 import { ExtendedProduct } from "@/types";
+import { CldImage } from "next-cloudinary";
 
 interface ProductCardProps {
   product: ExtendedProduct;
@@ -40,7 +40,7 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
             <div className="relative">
               <Link href={`/shop/products/${product.id}`} className="block">
                 <div className="relative aspect-square overflow-hidden">
-                  <Image
+                  <CldImage
                     src={product.images[0] || "/product-placeholder.png"}
                     alt={product.name}
                     fill

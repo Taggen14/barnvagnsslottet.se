@@ -16,21 +16,20 @@ const Navbar = () => {
 
   return (
     <NavigationMenu className="items-start">
-      <NavigationMenuList className="flex flex-col md:flex-row items-start px-5 md:px-0 gap-0">
+      <NavigationMenuList className="flex flex-col sm:flex-row items-start px-5 md:px-0 gap-0">
         {links.map((link, i) => (
           <NavigationMenuItem key={i}>
             <NavigationMenuLink
               className={`relative text-xl whitespace-nowrap transition-colors duration-300 inline-block 
                                     after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-secondary-foreground 
-                                    after:transition-width after:duration-300 hover:after:w-full ${
-                                      link.slug === "/"
-                                        ? pathname === "/"
-                                          ? "text-secondary-foreground"
-                                          : "text-background"
-                                        : pathname.includes(link.slug)
-                                          ? "text-secondary-foreground"
-                                          : "text-background"
-                                    }`}
+                                    after:transition-width after:duration-300 hover:after:w-full ${link.slug === "/"
+                  ? pathname === "/"
+                    ? "text-secondary-foreground"
+                    : "text-background"
+                  : pathname.includes(link.slug)
+                    ? "text-secondary-foreground"
+                    : "text-background"
+                }`}
               href={link.route}
             >
               {link.title}
