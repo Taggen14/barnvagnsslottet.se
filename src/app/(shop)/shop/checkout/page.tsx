@@ -564,12 +564,12 @@ export default function CheckoutPage() {
                     <span className="text-lg sm:text-xl font-bold text-primary">
                       {shippingCost
                         ? formatPrice(
-                            items.reduce(
-                              (acc, item) => acc + item.price * item.quantity,
-                              0,
-                            ) +
-                              shippingCost / 100,
-                          )
+                          items.reduce(
+                            (acc, item) => acc + item.price * item.quantity,
+                            0,
+                          ) +
+                          shippingCost / 100,
+                        )
                         : "-"}
                     </span>
                   </div>
