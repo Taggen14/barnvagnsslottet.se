@@ -1,18 +1,27 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import content from "@/app/sv.json";
-import { ShoppingCart, User } from "lucide-react";
 import { CldImage } from "next-cloudinary";
 import Navbar from "./navbar";
 import NavbarMobile from "./navbar-mobile";
 import Link from "next/link";
+import { useTheme } from "next-themes";
 
 const Header = () => {
   const { logo } = content.layout;
+  const { setTheme } = useTheme();
+
+  /* sätter light-mode (ifall man varit i shop delen med darkmode så ska den byta till light på huvudsidan för den stödjer inte darkmode) */
+  useEffect(() => {
+    setTheme("light");
+    document.documentElement.setAttribute("data-theme", "light");
+    document.documentElement.classList.remove("dark");
+    document.documentElement.classList.add("light");
+  }, []);
 
   return (
-    <header className="text-secondary-foreground flex justify-between items-center px-10 py-2 bg-secondary">
+    <header className={`text-secondary-foreground flex justify-between items-center gap-5 px-5 sm:px-10 py-2 bg-secondary`}>
       <Link href={"/"}>
         <CldImage
           src={logo.url}
@@ -22,17 +31,17 @@ const Header = () => {
           preserveTransformations
         />
       </Link>
-      <div className="hidden md:block">
+      <div className="hidden sm:block">
         <Navbar />
       </div>
       <div className="flex gap-5">
-        <span>
+        {/* <span>
           <User />
         </span>
         <span>
           <ShoppingCart />
-        </span>
-        <div className="md:hidden">
+        </span> */}
+        <div className="sm:hidden">
           <NavbarMobile />
         </div>
       </div>

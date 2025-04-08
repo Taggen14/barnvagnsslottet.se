@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <>
       <Header />
-      <main className="max-w-[1500px] mx-auto">{children}</main>
+      <main className="max-w-[1500px] mx-auto h-screen">{children}</main>
       <Footer />
     </>
   );
