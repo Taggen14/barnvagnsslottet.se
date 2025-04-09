@@ -24,9 +24,9 @@ export async function POST(request: Request) {
 
     // Upload to Cloudinary
     const result = await cloudinary.uploader.upload(fileBase64, {
+
       folder: "products",
     });
-
     return NextResponse.json({
       url: result.secure_url,
       public_id: result.public_id,

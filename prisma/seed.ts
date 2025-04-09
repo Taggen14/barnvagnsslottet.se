@@ -54,9 +54,7 @@ const products = [
     price: 12345,
     stock: 50,
     images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
+      "https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg",
     ],
     category: "Barnvagnar",
   },
@@ -95,10 +93,7 @@ const products = [
     price: 12345,
     stock: 50,
     images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
-    ],
+      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1744091776/barnvagnsslottet-cover_qjii5y.webp",],
     category: "Barnvagnar",
   },
   {
@@ -136,10 +131,7 @@ const products = [
     price: 12345,
     stock: 50,
     images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
-    ],
+      "https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg",],
     category: "Tillbehör",
   },
   {
@@ -177,10 +169,7 @@ const products = [
     price: 12345,
     stock: 50,
     images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
-    ],
+      "https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg",],
     category: "Tillbehör",
   },
   {
@@ -218,10 +207,7 @@ const products = [
     price: 12345,
     stock: 50,
     images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
-    ],
+      "https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg",],
     category: "Tillbehör",
   },
   {
@@ -259,10 +245,7 @@ const products = [
     price: 12345,
     stock: 50,
     images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
-    ],
+      "https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg",],
     category: "Tillbehör",
   },
   {
@@ -299,11 +282,7 @@ const products = [
     `,
     price: 12345,
     stock: 50,
-    images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
-    ],
+    images: ["https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg"],
     category: "Barnvagnar",
   },
   {
@@ -340,11 +319,7 @@ const products = [
     `,
     price: 12345,
     stock: 50,
-    images: [
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-540x_rmlqhk.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-sideview-540x_frtpqv.webp",
-      "https://res.cloudinary.com/CLOUD_NAME/image/upload/v1743426661/Esprecious-11L-open-540x_utt3rl.webp",
-    ],
+    images: ["https://res.cloudinary.com/dnte9pl8k/image/upload/v1744111414/barnvagnsslottet-logo-200x800px-removebg_yz8hwp.png", "https://res.cloudinary.com/dnte9pl8k/image/upload/v1744097545/barnvagnsslottet-logo-200x800px_xonfq8.jpg"],
     category: "Barnvagnar",
   },
 ];
